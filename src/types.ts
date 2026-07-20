@@ -1,5 +1,5 @@
 // ── Screens ──────────────────────────────────────────────────────────────────
-export type Screen = 'splash' | 'login' | 'register' | 'verify' | 'pin' | 'trading';
+export type Screen = 'splash' | 'landing' | 'login' | 'register' | 'verify' | 'pin' | 'trading';
 
 // ── Theme ─────────────────────────────────────────────────────────────────────
 export type Theme = 'dark' | 'light';
