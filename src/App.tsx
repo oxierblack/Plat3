@@ -1,5 +1,6 @@
 import { useStore } from './lib/store';
 import SplashScreen from './pages/SplashScreen';
+import LandingScreen from './pages/LandingScreen';
 import LoginScreen from './pages/auth/LoginScreen';
 import RegisterScreen from './pages/auth/RegisterScreen';
 import VerifyScreen from './pages/auth/VerifyScreen';
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <div className={`app ${theme}`}>
       {screen === 'splash'   && <SplashScreen />}
+      {screen === 'landing'  && <LandingScreen />}
       {screen === 'login'    && <LoginScreen />}
       {screen === 'register' && <RegisterScreen />}
       {screen === 'verify'   && <VerifyScreen />}
